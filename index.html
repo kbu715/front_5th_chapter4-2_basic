@@ -81,21 +81,23 @@
     </header>
 
     <section class="hero">
-      <img class="desktop" src="images/Hero_Desktop.webp" />
-      <img class="mobile" src="images/Hero_Mobile.webp" />
-      <img class="tablet" src="images/Hero_Tablet.webp" />
-
-      <div class="hero-content">
-        <div class="container">
-          <h1>Discover our line of VR Headsets</h1>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium.
-          </p>
-          <button>View Headsets</button>
-        </div>
-      </div>
-    </section>
+      <picture>
+        <source
+        media="(max-width: 575px)"
+          srcset="images/Hero_Mobile.webp"
+        />
+        <source
+        media="(min-width: 576px) and (max-width: 960px)"
+          srcset="images/Hero_Tablet.webp"
+        />
+        
+        <img
+          class="desktop"
+          src="images/Hero_Desktop.jpg"
+          alt="Hero Image"
+          loading="eager"
+        />
+      </picture>
 
     <section class="country-bar hidden"></section>
 
