@@ -17,11 +17,16 @@ function displayProducts(products) {
     // Create the product picture div
     const pictureDiv = document.createElement("div");
     pictureDiv.classList.add("product-picture");
+
     const img = document.createElement("img");
     img.src = product.image;
     img.alt = `product: ${product.title}`;
     img.width = 250;
+    img.height = 250;
     img.loading = "lazy";
+    img.style.maxWidth = "100%";
+    img.style.maxHeight = "250px";
+    img.style.objectFit = "contain";
     pictureDiv.appendChild(img);
 
     // Create the product info div
