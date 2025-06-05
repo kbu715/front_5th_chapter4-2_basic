@@ -57,3 +57,7 @@ https://front-5th-chapter4-2-basic-blond.vercel.app/
 | CLS (Cumulative Layout Shift) | 0.48    | **0.001** |
 
 ---
+<img width="985" alt="스크린샷 2025-06-05 오후 4 04 11" src="https://github.com/user-attachments/assets/31916e04-e975-4ba8-b95e-ea25a4b1c6e7" />
+
+<img width="950" alt="스크린샷 2025-06-05 오후 4 04 29" src="https://github.com/user-attachments/assets/85a172ca-b44d-4b61-8dc0-892ceb633be2" />
+
