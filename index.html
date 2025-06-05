@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <!-- <link rel="stylesheet" type="text/css" href="/css/slick.css"/> -->
     <!-- Google Tag Manager -->
-    <script>
+    <script async>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
@@ -78,7 +78,7 @@
     </header>
 
     <section class="hero">
-      <picture>
+      <picture loading="lazy">
         <source
         media="(max-width: 575px)"
           srcset="images/Hero_Mobile.webp"
@@ -92,7 +92,7 @@
           class="desktop"
           src="images/Hero_Desktop.webp"
           alt="Hero Image"
-          loading="eager"
+          loading="lazy"
         />
       </picture>
       
@@ -115,6 +115,7 @@
                       480px"
               alt="product: Penom Case"
               width="125" height="125" 
+              loading="lazy"
               /> 
             </div>
             <div class="product-info">
@@ -139,6 +140,7 @@
                         480px"
                 alt="product: Noise Cancelling Headphone"
                 width="125" height="125"
+                loading="lazy"
               />
             </div>
             <div class="product-info">
@@ -163,6 +165,7 @@
                         (max-width: 1023px) 320px,
                         480px"
                 width="125" height="125"
+                loading="lazy"
               />
             </div>
             <div class="product-info">
